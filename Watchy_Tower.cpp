@@ -23,7 +23,7 @@ void WatchyTower::drawTime(){
       WiFi.mode(WIFI_OFF);
       btStop();
     }
-
+// time adjustment of 15,15 seconds each day (Watchy runs to fast)
     if (currentTime.Hour == 00 && currentTime.Minute == 30){
         
         RTC.read(currentTime);
@@ -44,9 +44,9 @@ void WatchyTower::drawTime(){
         tm.Minute = minute ;
         tm.Second = sekunde;
 
-        RTC.set(tm);
-                
+        RTC.set(tm);     
          }
+    // end of time adjustment, if you don't like a time adjustment, just delete above lines
 
     display.setFont(&FreeMonoBoldOblique22pt7b);
     display.setCursor(5,30);
