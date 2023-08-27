@@ -4,7 +4,7 @@ no wifi, no bluetooth but long battery life (over 20 days)
 
 there is a time adjustment routine in Watchy_Tower.cpp
 
-every day at 0:30 it set back time by 15 seconds and 150 ms, because my Watchy runs too fast. Just delete it (or set another adjustment) 
+every day at 0:30 it sets back time by 15 seconds and 150 ms, because my Watchy runs too fast. Just delete it (or set another adjustment) 
 
 ![tower](https://github.com/MartMarq/Watchy_Watchface_Rhinetower/assets/139223739/ccc54438-bc1d-4860-8e41-3424e8873aec)
 
