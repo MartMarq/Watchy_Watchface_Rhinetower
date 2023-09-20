@@ -1,6 +1,6 @@
 # Watchy_Watchface_Rhinetower
 # Watchface for Watchy by SQFMI - Rhinetower
-no wifi, no bluetooth but long battery life (over 20 days- if your CPU is a PCF8563 V2)
+no wifi, no bluetooth but long battery life 
 
 there is a time adjustment routine in Watchy_Tower.cpp
 
