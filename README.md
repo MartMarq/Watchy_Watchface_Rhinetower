@@ -1,4 +1,4 @@
-# Watchy_Watchface_Rhinetower
+
 # Watchface for Watchy by SQFMI - Rhinetower
 no wifi, no bluetooth but long battery life 
 
